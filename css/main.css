@@ -88,7 +88,8 @@ h1 {
 	margin: 14px;
 	bottom: 230px;
 	right: 3.3rem;
-	line-height: 1.5rem
+	line-height: 1.5rem;
+	color: #333;
 }
 
 .slogan {
@@ -112,7 +113,7 @@ h1 {
 
 .logo {
   position: absolte;
-  top: -3rem;
+  top: 2rem;
   right: -7.5rem;
 }
 
@@ -130,6 +131,14 @@ li {
 	background-color: #333;
 	position: absolute;
 	top: 3.5rem;
+}
+
+.media a {
+	padding-bottom: .3rem;
+}
+
+.media a:hover {
+	border-bottom: 1px solid #333;
 }
 
 .nav a {
@@ -216,14 +225,14 @@ img {
  }
 
  .slogan h1 {
-	 font-size: 24px ;
+	 font-size: 19px ;
 	 width: 96%;
  }
 
  .slogan {
-	 left: 13rem;
-	 top: 269px;
-	 max-width: 40rem;
+	 left: 14rem;
+	 top: 293px;
+	 max-width: 39rem;
  }
 
  .products p {
@@ -289,8 +298,8 @@ img {
 	}
 
 	.logo {
-		top: -5rem;
-		left: 25rem;
+		top: -2rem;
+		left: 24.7rem;
 	}
 
 	.text2 {
@@ -307,7 +316,47 @@ img {
 
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (min-width: 80em) {
 
+	.logo {
+		top: -2rem;
+		left: 29.5rem;
+	}
 
+	.nav2 {
+		padding-right: 14.5rem;
+	}
+
+	.nav1 {
+		right: 37rem;
+	}
+
+}
+
+@media only screen and (min-width: 89em) {
+
+	.logo {
+		top: -2rem;
+		left: 38.5rem;
+	}
+
+	.nav1 {
+		left: -24rem;
+	}
+
+	.nav2 {
+		padding-right: 19rem;
+	}
+
+	.logo {
+		left: 33.5rem;
+	}
+
+	.slogan {
+		left: 18rem;
+	}
+
+	.slogan h1 {
+		padding-left: 0;
+	}
 }
