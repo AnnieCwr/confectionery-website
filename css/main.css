@@ -104,7 +104,6 @@ h1::before {
 }
 
 .masthead {
-  background-image: url("../images/banner.jpg");
   background-position: -5px 10px;
   height: 30em;
   background-repeat: no-repeat;
