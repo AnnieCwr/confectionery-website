@@ -163,6 +163,7 @@ h1 {
 
 .nav a:hover {
 	border-bottom: 1px solid #9b9fa5;
+	color: #ccc;
 }
 
 .since {
@@ -193,6 +194,7 @@ li {
 
 .media a:hover {
 	border-bottom: 1px solid #333;
+	color: #333;
 }
 
 .nav a {
