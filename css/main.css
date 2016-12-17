@@ -27,10 +27,6 @@ body {
   display: block;
 }
 
-h1 {
-  position: relative;
-  text-align: center;
-}
 
 .hrb {
   margin: auto;
@@ -61,16 +57,13 @@ h1:before {
   display: block;
   height: 1px;
   position: absolute;
-    top: 50%;
+  top: 50%;
   width: 100%;
-}
-
-h1:before {
   left: 0;
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
 .nav {
@@ -125,7 +118,7 @@ img {
 
 .masthead {
   background-image: url("../images/banner.jpg");
-  background-position:-5px 10px;
+  background-position: -5px 10px;
   height: 30em;
   background-repeat: no-repeat;
   background-size: cover;
@@ -145,6 +138,8 @@ h1 {
   border-bottom: 2px solid #333;
   border-left: 2px solid #333;
   border-right: 2px solid #333;
+  position: relative;
+  text-align: center;
 }
 
 .slogan {
@@ -175,12 +170,6 @@ h1 {
   color: #ccc;
 }
 
-.since {
-  font-family: Lato;
-  font-weight: 900;
-}
-
-
 .nav a {
   text-decoration: none;
   font-family: Lato;
@@ -207,6 +196,7 @@ li {
   font-weight: 900;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .story h2 {
@@ -262,57 +252,52 @@ footer a {
 
 @media only screen and (min-width: 38em) {
 
- img {
-   width: 40%
+  img {
+    width: 40%;
  }
 
+  .slogan h1 {
+    right: 6rem;
+    top: -2rem;
+  }
 
- .slogan h1 {
-   right: 6rem;
-   top: -2rem;
- }
+  .p1t {
+    text-align: center;
+  }
 
- .p1t {
-  text-align: center;
- }
+  .p2t {
+    text-align: center;
+  }
 
- .p2t {
-   text-align: center;
- }
+  .p2i {
+    padding-top: 2rem;
+  }
 
- .p2i {
-  padding-top: 2rem;
- }
+  .p3t {
+    text-align: center;
+  }
 
- .p3t {
-   text-align: center;
- }
+  .p4t {
+    text-align: center;
+  }
 
- .p4t {
-   text-align: center;
- }
+  .slogan h1 {
+    font-size: 19px;
+  }
 
- .since {
-   text-align: center;
- }
+  .slogan {
+    left: 14rem;
+    top: 293px;
+    max-width: 39rem;
+  }
 
- .slogan h1 {
-   font-size: 19px ;
- }
-
- .slogan {
-   left: 14rem;
-   top: 293px;
-   max-width: 39rem;
- }
-
- .products p {
-   max-width: 100%;
- }
+  .products p {
+    max-width: 100%;
+  }
 
  .text {
-   text-align: center;
- }
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 60em) {
@@ -323,7 +308,7 @@ footer a {
   }
 
   .contact {
-    max-width:  94%;
+    max-width: 94%;
   }
 
   .nav a:hover {
@@ -336,16 +321,16 @@ footer a {
     background-color: transparent;
   }
 
-   .nav li {
+  .nav li {
     display: inline;
-   }
+  }
 
-  li.logo img{
+  li.logo img {
     width: 80px;
   }
 
   img {
-    width: 40%
+    width: 40%;
   }
 
   .nav a {
@@ -381,9 +366,9 @@ footer a {
     margin-bottom: 3rem;
   }
 
-.logo-small {
-  display: none;
-}
+  .logo-small {
+    display: none;
+  }
 
   .video {
     position: absolute;
@@ -406,19 +391,19 @@ footer a {
   }
 
   .product-img-left {
-    padding: 0 8rem 0 8rem;
+    padding: 0 8rem;
   }
 
   .product-img-right {
-    padding: 0px 13rem 0 3rem;
+    padding: 0 13rem 0 3rem;
   }
 
   .product-text-right {
-    padding: 0px 13rem 0 0rem;
+    padding: 0 13rem 0 0;
   }
 
   .product-text-left {
-    padding: 0 7rem 0 7rem;
+    padding: 0 7rem;
   }
 
   .story {
@@ -433,7 +418,6 @@ footer a {
 }
 
 @media only screen and (min-width: 89em) {
-
 
   .nav1 {
     left: -24rem;
