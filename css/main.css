@@ -125,7 +125,7 @@ img {
 
 .masthead {
 	background-image: url("../images/banner.jpg");
-	background-position: -5px -250px;
+	background-position:-5px 10px;
 	height: 30em;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -385,10 +385,6 @@ footer a {
 .logo-small {
 	display: none;
 }
-
-	.text2 {
-		with: 50%;
-	}
 
 	.video {
 		position: absolute;
