@@ -20,6 +20,10 @@ body {
   margin: 0;
 }
 
+.img-logo {
+	width: 45%
+}
+
 .logo-small {
   width: 40%;
   margin: auto;
@@ -104,6 +108,7 @@ h1::before {
 }
 
 .masthead {
+  background-image: url("../images/banner.jpg");
   background-position: -5px 10px;
   height: 30em;
   background-repeat: no-repeat;
