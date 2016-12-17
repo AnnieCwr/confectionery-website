@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -13,7 +13,7 @@ html {
 }
 
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {
@@ -21,10 +21,10 @@ body {
 }
 
 .logo-small {
-	width: 40%;
-	margin: auto;
-	padding-top: 2rem;
-	display: block;
+  width: 40%;
+  margin: auto;
+  padding-top: 2rem;
+  display: block;
 }
 
 h1 {
@@ -33,19 +33,19 @@ h1 {
 }
 
 .hrb {
-	margin: auto;
-	margin-bottom: 5rem;
-	width: 282px;
+  margin: auto;
+  margin-bottom: 5rem;
+  width: 282px;
 }
 
 .hrp {
-	margin: auto;
-	margin-bottom: 2.5rem;
-	color: #ccc;
+  margin: auto;
+  margin-bottom: 2.5rem;
+  color: #ccc;
 }
 
 .intro {
-	padding-bottom: 10rem;
+  padding-bottom: 10rem;
 }
 
 h1 span {
@@ -70,14 +70,14 @@ h1:before {
 }
 
 img {
-	width:100%;
+  width:100%;
 }
 
 .nav {
   display: none;
   position: absolute;
   top: 3rem;
-	right: .2rem;
+  right: .2rem;
   background-color: #ccc;
 }
 
@@ -86,7 +86,7 @@ img {
 }
 
 .img-flex {
-	margin: auto;
+  margin: auto;
 }
 
 .nav-close,
@@ -105,10 +105,6 @@ img {
   top: -3em;
 }
 
-.nav-check:checked ~ .nav-label {
-  background-color: #333;
-}
-
 .nav-label {
   cursor: pointer;
   font-size: 1.125rem;
@@ -119,134 +115,138 @@ img {
   right: .6rem;
 }
 
+.nav-check:checked ~ .nav-label {
+  background-color: #333;
+}
+
 .nav-close {
   display: none;
 }
 
 .masthead {
-	background-image: url("../images/banner.jpg");
-	background-position:-5px 10px;
-	height: 30em;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
+  background-image: url("../images/banner.jpg");
+  background-position:-5px 10px;
+  height: 30em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 h1 {
-	font-family: "Lato";
-	font-size: 16px;
-	width: 100%;
-	text-align: center;
-	margin: 14px;
-	padding: .5em;
-	line-height: 1.5rem;
-	color: #333;
-	border-top: 2px solid #333;
-	border-bottom: 2px solid #333;
-	border-left: 2px solid #333;
-	border-right: 2px solid #333;
+  font-family: Lato;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  margin: 14px;
+  padding: .5em;
+  line-height: 1.5rem;
+  color: #333;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  border-left: 2px solid #333;
+  border-right: 2px solid #333;
 }
 
 .slogan {
-	position: absolute;
-	bottom: 12rem;
-	right: 2rem;
+  position: absolute;
+  bottom: 12rem;
+  right: 2rem;
 }
 
 .story {
-	padding-top: 2rem;
-	background-image: url("../images/Newsection.svg");
-	background-repeat: no-repeat;
-	background-size: 20px;
-	background-position: 15rem 16rem;
-}
-
-.nav a:hover {
-	border-bottom: 1px solid #9b9fa5;
-	color: #ccc;
-}
-
-.since {
- font-family: "Lato";
- font-weight: 900;
-}
-
-
-.nav a {
-	text-decoration: none;
-	font-family: "lato";
-	color: white;
-}
-
-li {
-	text-align: center;
-}
-
-.nav {
-	background-color: #333;
-	position: absolute;
-	top: 3.5rem;
+  padding-top: 2rem;
+  background-image: url("../images/Newsection.svg");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 15rem 16rem;
 }
 
 .media a {
-	padding-bottom: .3rem;
+  padding-bottom: .3rem;
 }
 
 .media a:hover {
-	border-bottom: 1px solid #333;
-	color: #333;
+  border-bottom: 1px solid #333;
+  color: #333;
 }
 
-.nav a {
-	padding-bottom: .2rem;
+.nav a:hover {
+  border-bottom: 1px solid #9b9fa5;
+  color: #ccc;
 }
 
 .since {
-	text-align: left;
-	font-family: "Lato";
-	font-weight: 900;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+  font-family: Lato;
+  font-weight: 900;
+}
+
+
+.nav a {
+  text-decoration: none;
+  font-family: Lato;
+  color: white;
+}
+
+li {
+  text-align: center;
+}
+
+.nav {
+  background-color: #333;
+  position: absolute;
+  top: 3.5rem;
+}
+
+.nav a {
+  padding-bottom: .2rem;
+}
+
+.since {
+  text-align: left;
+  font-family: Lato;
+  font-weight: 900;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .story h2 {
-	font-family: "Lato";
-	font-weight: bold;
+  font-family: Lato;
+  font-weight: bold;
 }
 
 img {
-	width: 50%;
+  width: 50%;
 }
 
 .make {
-	font-family: "Lato";
+  font-family: Lato;
 }
 
 nav {
-	padding: 1em 3em .5em 2em;
+  padding: 1em 3em .5em 2em;
 }
 li.logo {
-	display: none;
+  display: none;
 }
 
 .photo {
-	margin: auto;
-	padding-bottom: 2rem;
+  margin: auto;
+  padding-bottom: 2rem;
 }
 
 .intro2 {
-	float: right;
-	padding-bottom: 2rem;
+  float: right;
+  padding-bottom: 2rem;
 }
 
 .text {
-	text-align: left;
+  text-align: left;
 }
 
 footer a {
-	text-decoration: none;
-	color: #333;
-	display: block;
+  text-decoration: none;
+  color: #333;
+  display: block;
 }
 
 @media only screen and (min-width: 25em) {
@@ -255,81 +255,80 @@ footer a {
     right: 5rem;
   }
 
-	nav {
-		padding: 1em 3em .5em 3em;
-	}
+  nav {
+    padding: 1em 3em .5em 3em;
+  }
 }
 
 @media only screen and (min-width: 38em) {
 
-
  img {
- 	width: 40%
+   width: 40%
  }
 
 
  .slogan h1 {
-	 right: 6rem;
-	 top: -2rem;
+   right: 6rem;
+   top: -2rem;
  }
 
  .p1t {
- 	text-align: center;
+  text-align: center;
  }
 
  .p2t {
- 	text-align: center;
+   text-align: center;
  }
 
  .p2i {
-	padding-top: 2rem;
+  padding-top: 2rem;
  }
 
  .p3t {
- 	text-align: center;
+   text-align: center;
  }
 
  .p4t {
- 	text-align: center;
+   text-align: center;
  }
 
  .since {
- 	text-align: center;
+   text-align: center;
  }
 
  .slogan h1 {
-	 font-size: 19px ;
+   font-size: 19px ;
  }
 
  .slogan {
-	 left: 14rem;
-	 top: 293px;
-	 max-width: 39rem;
+   left: 14rem;
+   top: 293px;
+   max-width: 39rem;
  }
 
  .products p {
-	max-width: 100%;
+   max-width: 100%;
  }
 
  .text {
-	 text-align: center;
+   text-align: center;
  }
 }
 
 @media only screen and (min-width: 60em) {
 
-	.nav-check,
+  .nav-check,
   .nav-label {
     display: none;
   }
 
   .contact {
     max-width:  94%;
-	}
+  }
 
-	.nav a:hover {
-		border-bottom: 1px solid #333;
-	}
+  .nav a:hover {
+    border-bottom: 1px solid #333;
+  }
 
   .nav {
     display: inline-block;
@@ -337,118 +336,118 @@ footer a {
     background-color: transparent;
   }
 
-	 .nav li {
-		display: inline;
-	 }
+   .nav li {
+    display: inline;
+   }
 
-	li.logo img{
-		width: 80px;
-	}
+  li.logo img{
+    width: 80px;
+  }
 
-	img {
-		width: 40%
-	}
+  img {
+    width: 40%
+  }
 
-	.nav a {
-		color: black;
-	}
+  .nav a {
+    color: black;
+  }
 
-	.nav {
-		top: 3rem;
-		width: 100%;
-	}
-	.nav ul {
-		width: 100%;
-	}
+  .nav {
+    top: 3rem;
+    width: 100%;
+  }
+  .nav ul {
+    width: 100%;
+  }
 
-	.nav1 {
-		display: inherit;
-	}
+  .nav1 {
+    display: inherit;
+  }
 
-	.nav2 {
-		float: right;
-		width: 100%;
-		padding-top: 1rem;
-		padding-right: 5.5rem;
-	}
+  .nav2 {
+    float: right;
+    width: 100%;
+    padding-top: 1rem;
+    padding-right: 5.5rem;
+  }
 
-	.product {
-		margin-top: 3rem;
-		margin-bottom: 3rem;
-	}
+  .product {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 
-	.story {
-		margin-top: 3rem;
-		margin-bottom: 3rem;
-	}
+  .story {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
 
 .logo-small {
-	display: none;
+  display: none;
 }
 
-	.video {
-		position: absolute;
-	}
+  .video {
+    position: absolute;
+  }
 
-	#making {
-		position: relative;
-	}
+  #making {
+    position: relative;
+  }
 
 }
 
 @media only screen and (min-width: 80em) {
 
-	.nav2 {
-		padding-right: 14.5rem;
-	}
+  .nav2 {
+    padding-right: 14.5rem;
+  }
 
-	.nav1 {
-		right: 37rem;
-	}
+  .nav1 {
+    right: 37rem;
+  }
 
-	.product-img-left {
-		padding: 0 8rem 0 8rem;
-	}
+  .product-img-left {
+    padding: 0 8rem 0 8rem;
+  }
 
-	.product-img-right {
-		padding: 0px 13rem 0 3rem;
-	}
+  .product-img-right {
+    padding: 0px 13rem 0 3rem;
+  }
 
-	.product-text-right {
-		padding: 0px 13rem 0 0rem;
-	}
+  .product-text-right {
+    padding: 0px 13rem 0 0rem;
+  }
 
-	.product-text-left {
-		padding: 0 7rem 0 7rem;
-	}
+  .product-text-left {
+    padding: 0 7rem 0 7rem;
+  }
 
-	.story {
-		margin-top: -1rem;
-		margin-bottom: 2rem;
-	}
+  .story {
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+  }
 
-	.story p {
-		padding: 0 7rem;
-	}
+  .story p {
+    padding: 0 7rem;
+  }
 
 }
 
 @media only screen and (min-width: 89em) {
 
 
-	.nav1 {
-		left: -24rem;
-	}
+  .nav1 {
+    left: -24rem;
+  }
 
-	.nav2 {
-		padding-right: 19rem;
-	}
+  .nav2 {
+    padding-right: 19rem;
+  }
 
-	.slogan {
-		left: 18rem;
-	}
+  .slogan {
+    left: 18rem;
+  }
 
-	.slogan h1 {
-		padding-left: 0;
-	}
+  .slogan h1 {
+    padding-left: 0;
+  }
 }
